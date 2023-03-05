@@ -44,7 +44,7 @@ function GoalForm() {
           <input
             type="text"
             id="text"
-            name="firstName"
+            name="text"
             value={text}
             onChange={onChange}
           />
