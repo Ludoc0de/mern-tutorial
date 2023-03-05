@@ -44,9 +44,9 @@ function GoalForm() {
             onChange={(e) => setText(e.target.value)}
           /> */}
           <input
-            type="text"
-            id="text"
-            name="text"
+            type="subtext"
+            id="subtext"
+            name="subtext"
             value={subtext}
             onChange={onChange}
           />
