@@ -9,6 +9,8 @@ function GoalForm() {
     sub: "",
   });
 
+  const { text, sub } = text;
+
   console.log("test1", text);
   const dispatch = useDispatch();
 
