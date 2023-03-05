@@ -22,7 +22,7 @@ function GoalForm() {
   };
   //
 
-  console.log("2test", text);
+  console.log("test2", text);
 
   const onSubmit = (e) => {
     e.preventDefault();
