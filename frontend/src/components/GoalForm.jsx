@@ -7,7 +7,7 @@ function GoalForm() {
   const [text, setText] = useState({
     subText: "",
   });
-
+  const { subText } = text;
   console.log("text", text);
   console.log("type", typeof text);
   const dispatch = useDispatch();
@@ -34,7 +34,7 @@ function GoalForm() {
             type="text"
             name="text"
             id="text"
-            value={text}
+            value={subText}
             onChange={onChange}
             // onChange={(e) => setText(e.target.value)}
           />
