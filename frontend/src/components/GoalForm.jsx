@@ -7,9 +7,12 @@ function GoalForm() {
   const [text, setText] = useState({
     subText: "",
   });
+
   const { subText } = text;
+
   console.log("text", text);
   console.log("type", typeof text);
+
   const dispatch = useDispatch();
 
   const onChange = (e) => {
