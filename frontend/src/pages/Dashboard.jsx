@@ -14,11 +14,11 @@ function Dashboard() {
   const { goals, isLoading, isError, message } = useSelector(
     (state) => state.goals
   );
-
+  //
   console.log(typeof goals);
   console.log(goals);
   console.log(goals.length);
-
+  //
   useEffect(() => {
     if (isError) {
       console.log(message);

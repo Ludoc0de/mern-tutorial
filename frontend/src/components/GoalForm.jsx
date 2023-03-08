@@ -6,9 +6,10 @@ function GoalForm() {
   // const [text, setText] = useState("");
   const [text, setText] = useState({
     subText: "",
+    subText2: "",
   });
 
-  const { subText } = text;
+  const { subText, subText2 } = text;
 
   console.log("text", text);
   console.log("type", typeof text);
@@ -41,6 +42,17 @@ function GoalForm() {
             onChange={onChange}
             // onChange={(e) => setText(e.target.value)}
           />
+          {/*  */}
+          <label htmlFor="text">Goal2</label>
+          <input
+            type="text"
+            name="subText2"
+            id="subText2"
+            value={subText2}
+            onChange={onChange}
+            // onChange={(e) => setText(e.target.value)}
+          />
+          {/*  */}
         </div>
         <div className="form-group">
           <button className="btn btn-block" type="submit">
