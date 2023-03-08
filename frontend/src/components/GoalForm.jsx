@@ -5,7 +5,8 @@ import { createGoal } from "../features/goals/goalSlice";
 function GoalForm() {
   const [text, setText] = useState("");
 
-  console.log("test", text);
+  console.log("text", text);
+  console.log("type", typeof text);
   const dispatch = useDispatch();
 
   const onSubmit = (e) => {
