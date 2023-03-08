@@ -32,8 +32,8 @@ function GoalForm() {
           <label htmlFor="text">Goal</label>
           <input
             type="text"
-            name="text"
-            id="text"
+            name="subText"
+            id="subText"
             value={subText}
             onChange={onChange}
             // onChange={(e) => setText(e.target.value)}
